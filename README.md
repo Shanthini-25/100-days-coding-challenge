@@ -72,3 +72,8 @@ Input : 3241
 Output : 4
 Input : 6
 Output : 1
+
+DAY - 10
+Get a number from user for which you need to fin the factorial, then calculate the factorial and give it as the output.
+Input : 4
+Output : 24
