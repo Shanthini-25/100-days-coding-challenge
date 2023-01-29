@@ -86,6 +86,7 @@ Output : 0,1,1,2,3
 Input : 8
 Output : 0,1,1,2,3,5,8,13
 
+DAY - 12
 Get a number from user and then find the sum of the digits in the given number.
 E.g. let the number = 341
 Sum of digits is 3+4+1= 8
