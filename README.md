@@ -92,3 +92,10 @@ E.g. let the number = 341
 Sum of digits is 3+4+1= 8
 Input : 4521
 Output : 12
+
+DAY - 13
+Get the input from the user for the value of n and then find the sum of first n natural numbers.
+e.g. let the n value = 5
+Then first 5 natural numbers are 1,2,3,4,5 for which we need to find the sum. Therefore sum of first 5 natural numbers is 1+2+3+4+5 = 15
+Input : 4
+Output : 10
