@@ -99,3 +99,9 @@ e.g. let the n value = 5
 Then first 5 natural numbers are 1,2,3,4,5 for which we need to find the sum. Therefore sum of first 5 natural numbers is 1+2+3+4+5 = 15
 Input : 4
 Output : 10
+
+DAY - 14
+Get an input from the user and the print the reverse of the given number as the output.
+E.g. let the number be 324 then the reverse of the number is 423
+Input : 675
+Output : 576
