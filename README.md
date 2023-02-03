@@ -122,3 +122,8 @@ Input : 28
 Output : Perfect Number
 Input : 4
 Output : Not a perfect number 
+
+DAY - 17
+Get an input from the user and find the factors of the number.
+Input : 4
+Output : 1,2,4  
