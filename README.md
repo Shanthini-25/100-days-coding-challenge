@@ -136,3 +136,12 @@ Input :
 2  3
 4  3
 Output : 2/1   
+
+DAY - 19
+Get an input number from user and check whether the given number is an Armstrong number or not.
+E.g. Let the number be 1634, Here 1^4 + 6^4 + 3 ^4 + 4^4 = 1634
+Therefore, this is an Armstrong number
+Input : 153
+Output : Armstrong number
+Input : 121
+Output : Not an Armstrong number  
