@@ -145,3 +145,10 @@ Input : 153
 Output : Armstrong number
 Input : 121
 Output : Not an Armstrong number  
+
+DAY - 20
+Get a number as input from the user and check whether that number is prime or not. A prime number is a number with factors as 1 and that number itself.
+Input : 1
+Output : 1 is not a prime number
+Input : 5
+Output : 5 is a prime number
