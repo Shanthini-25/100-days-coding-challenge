@@ -152,3 +152,10 @@ Input : 1
 Output : 1 is not a prime number
 Input : 5
 Output : 5 is a prime number
+
+DAY - 21
+Get a number as input from the user and check whether that number is a Palindrome or not.
+Input : 121 
+Output : Palindrome
+Input : 34
+Output : Not a Palindrome
