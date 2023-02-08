@@ -159,3 +159,8 @@ Input : 121
 Output : Palindrome
 Input : 34
 Output : Not a Palindrome
+
+DAY - 22
+Get a number as input from the user and express that number as sum of two prime numbers.
+Input : 4
+Output : 4 can be expressed as sum of 2 and 2
