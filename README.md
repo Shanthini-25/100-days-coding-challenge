@@ -164,3 +164,9 @@ DAY - 22
 Get a number as input from the user and express that number as sum of two prime numbers.
 Input : 4
 Output : 4 can be expressed as sum of 2 and 2
+
+DAY - 23
+Get a number as input from the user and find the zeros present in that number.
+Then convert the zeros into one and then print it.
+Input : 310020
+Output : 311121
