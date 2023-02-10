@@ -170,3 +170,12 @@ Get a number as input from the user and find the zeros present in that number.
 Then convert the zeros into one and then print it.
 Input : 310020
 Output : 311121
+
+DAY - 24
+Get the number of lines as the input and print stars in that many lines or rows in a pyramid shape.
+Input : 4
+Output
+*
+***
+*****
+*******
