@@ -179,3 +179,9 @@ Output
 ***
 *****
 *******
+
+DAY - 25
+Get the value for radius from the user and calculate the area of the circle for the given radius.
+Area of circle = 3.14*radius*radius
+Input : 3
+Output : 28.26
