@@ -192,3 +192,8 @@ For e.g. If there are N people in the room then the first person has to shake ha
 So total hand shakes = N-1 + N-2 + N-3 +………+1 + 0
 Input : 10
 Output : 45 
+
+DAY - 27
+For the given input number calculate the double of it without using arithmetic operator.
+Input : 4
+Output : 8
