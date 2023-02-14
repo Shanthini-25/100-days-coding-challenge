@@ -197,3 +197,8 @@ DAY - 27
 For the given input number calculate the double of it without using arithmetic operator.
 Input : 4
 Output : 8
+
+DAY - 28
+Get an input string from user and print it in reverse order.
+Input : Hello
+Output : olleH
