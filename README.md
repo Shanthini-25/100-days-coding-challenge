@@ -202,3 +202,10 @@ DAY - 28
 Get an input string from user and print it in reverse order.
 Input : Hello
 Output : olleH
+
+DAY - 29
+Get two strings as input from the user and then concatenate it.
+Input:
+Enter first string : Hello
+Enter second string : Hi
+Output : HelloHi
