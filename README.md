@@ -209,3 +209,8 @@ Input:
 Enter first string : Hello
 Enter second string : Hi
 Output : HelloHi
+
+DAY - 30
+Get a string as input from user and print the length of the string without using strlen() function.
+Input : Hello 
+Output : 5
