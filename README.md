@@ -214,3 +214,8 @@ DAY - 30
 Get a string as input from user and print the length of the string without using strlen() function.
 Input : Hello 
 Output : 5
+
+DAY - 31
+Get an input string from user and then convert the lower case of alphabets to upper case and all upper-case alphabets into lower case.
+Input : Hello
+Output : hELLO
