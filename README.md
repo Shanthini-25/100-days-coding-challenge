@@ -219,3 +219,8 @@ DAY - 31
 Get an input string from user and then convert the lower case of alphabets to upper case and all upper-case alphabets into lower case.
 Input : Hello
 Output : hELLO
+
+DAY -32
+Get a string as the input from the user and then remove all the vowel letters from the string and give the output.
+Input : remove
+Output : rmv
