@@ -224,3 +224,15 @@ DAY -32
 Get a string as the input from the user and then remove all the vowel letters from the string and give the output.
 Input : remove
 Output : rmv
+
+DAY - 33
+Get an input string from the user and then check whether it is a palindrome string or not.
+Input : noon
+Output : Palindrome
+Input : Talent
+Output : Not a Palindrome
+
+DAY - 34
+Get an algebraic expression as input from the user and then remove all the brackets in that.
+Input : 7x+(2*y)
+Output : 7x+2*y
