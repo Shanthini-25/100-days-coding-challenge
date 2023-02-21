@@ -236,3 +236,8 @@ DAY - 34
 Get an algebraic expression as input from the user and then remove all the brackets in that.
 Input : 7x+(2*y)
 Output : 7x+2*y
+
+DAY - 35
+Get a string from the user and find the sum of numbers in the string.
+Input : Hello56
+Output : 11
