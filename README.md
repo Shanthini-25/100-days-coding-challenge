@@ -241,3 +241,8 @@ DAY - 35
 Get a string from the user and find the sum of numbers in the string.
 Input : Hello56
 Output : 11
+
+DAY - 36
+Get a string from the user and then change the first and last letter to uppercase.
+Input : programming
+Output : ProgramminG
