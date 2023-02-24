@@ -246,3 +246,14 @@ DAY - 36
 Get a string from the user and then change the first and last letter to uppercase.
 Input : programming
 Output : ProgramminG
+
+DAY - 37
+Get a string as the input from the user and find the frequency of characters in the string.
+Input : program
+Output : 
+The frequency of a is 1
+The frequency of g is 1
+The frequency of m is 1
+The frequency of o is 1
+The frequency of p is 1
+The frequency of r is 2
