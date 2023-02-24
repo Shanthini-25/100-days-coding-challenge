@@ -257,3 +257,8 @@ The frequency of m is 1
 The frequency of o is 1
 The frequency of p is 1
 The frequency of r is 2
+
+DAY - 38
+Get a string as the input from the user and print the non-repeating characters in a string.
+Input : Hello
+Output : H e o
