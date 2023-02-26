@@ -262,3 +262,8 @@ DAY - 38
 Get a string as the input from the user and print the non-repeating characters in a string.
 Input : Hello
 Output : H e o
+
+DAY - 39
+Get two strings as input from the user and check whether it is Anagram or not.
+Input : sunlight thgiluns
+Output : Anagram
