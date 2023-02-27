@@ -278,3 +278,11 @@ Enter the substring to be removed : talent
 Enter the new substring : student
 Output : 
 The new string : studentbattle
+
+DAY - 41
+Get two strings as input from the user, first with wildcard characters (* and ?) and second without wildcard characters.
+Then check whether they match or not.
+Input :
+Ta**nt
+Talent
+Output : Yes they match
