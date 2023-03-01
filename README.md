@@ -297,3 +297,10 @@ Enter elements of first array :
 Enter elements of second array :
 1 2 3
 Output : Same
+
+DAY - 43
+Get an array as input from the user and check the type of the array, whether it is odd, even or mixed type.
+Input :
+Enter size of array : 3
+Enter elements  : 1 3 5
+Output : Odd
