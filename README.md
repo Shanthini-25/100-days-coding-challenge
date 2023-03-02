@@ -304,3 +304,14 @@ Input :
 Enter size of array : 3
 Enter elements  : 1 3 5
 Output : Odd
+
+DAY - 44
+Get an array as input from the user and then count the number of even and odd elements present in the array.
+Input :
+Enter size of array : 
+4 
+Enter the elements :
+1 3 4 5
+Output : 
+Number of even elements : 1
+Number of odd elements : 3
