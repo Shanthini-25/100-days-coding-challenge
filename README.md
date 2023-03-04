@@ -326,3 +326,10 @@ Enter the elements :
 Output : 
 Smallest Number : 5
 Largest Number : 40
+
+DAY - 46
+Get an array as the input from the user and find the sum of the elements.
+Input :
+Enter the size of array : 3
+Enter the elements of array : 5 10 15
+Output : 30
