@@ -343,3 +343,11 @@ Enter the elements of array :
 121 10456 1000001
 Output : 
 1000001
+
+DAY - 48
+Get an array as input from the user and then remove all the duplicate elements in that array.
+Input :
+Enter the size of array : 5
+Enter the elements of array :
+35 35 45 60 60
+Output : 35 45 60
