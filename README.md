@@ -458,3 +458,14 @@ Sample output 2:
 37
 Explanation :
 (-4*-8 + -3*-7 + -2*5 + -1*6) = 37
+
+DAY - 56
+Write Program to find whether the numbers of an array be made equal.
+Description : 
+Check whether the numbers of array be made equal or not . For eg, for the following input it should print yes because
+50*2*3 , 75*2*2 and 150*2 are equal to 300 in all cases. So array numbers can be made equal.
+Input :
+3
+50 75 150
+Output :
+Yes
