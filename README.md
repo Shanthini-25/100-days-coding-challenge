@@ -849,3 +849,64 @@ Sample Output :
 4
 0
 2
+
+DAY - 75
+You are a person who is always fond of eating candies. Your friend gave you a candy of length N, to eat during the break period of your school.
+You start eating this candy from one of the ends. But as it is not your candy, your friend told you to eat exactly K unit length of candy during each bite. You will stop eating if the candy's length becomes 00. This means that you have eaten the entire candy.
+If at some point of time, the candy's length is positive, but less than K, you cannot take a bite thereafter.
+Can you eat the complete candy? If yes, print the number bites it will take, else print −1−1.
+Input Format
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of two spaced integers N, K.
+Output Format
+For each testcase, print the minimum number of bites you need to eat the complete candy. Print −1−1 if it is not possible to do so.
+Sample Input
+3
+3 1
+3 2
+0 3
+Sample Output
+3
+-1
+0
+
+DAY - 76
+You are given N integers. In each step you can choose some K of the remaining numbers and delete them, if the following condition holds: Let the K numbers you've chosen be a1, a2, a3, ..., aK in sorted order. Then, for each i ≤ K - 1, ai+1 must be greater than or equal to ai * C.
+You are asked to calculate the maximum number of steps you can possibly make.
+Input
+The first line of the input contains an integer T, denoting the number of test cases. The description of each testcase follows.
+The first line of each testcase contains three integers: N, K, and C
+The second line of each testcase contains the N initial numbers
+Output
+For each test case output the answer in a new line.
+Sample Input
+2
+6 3 2
+4 1 2 2 3 1
+6 3 2
+1 2 2 1 4 4
+Sample Output
+1
+2
+
+DAY - 77
+You are given an array A of N elements. For any ordered triplet (i,j,k) such that i, j, and k are pairwise distinct and 1≤i,j,k≤N, the value of this triplet is (Ai?−Aj?)⋅Ak?. You need to find the maximum value among all possible ordered triplets.
+Note: Two ordered triplets (a,b,c) and (d,e,f) are only equal when a=d and b=e and c=f. As an example, (1,2,3) and (2,3,1) are two different ordered triplets.
+Input Format
+The first line of the input contains a single integer T - the number of test cases. The test cases then follow.
+The first line of each test case contains an integer N.
+The second line of each test case contains N space-separated integers A1?,A2?,…,AN?.
+Output Format
+For each test case, output the maximum value among all different ordered triplets.
+Sample Input
+3
+3
+1 1 3
+5
+3 4 4 1 2
+5
+23 17 21 18 19
+Sample Output
+2
+12
+126
