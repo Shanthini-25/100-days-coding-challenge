@@ -930,3 +930,58 @@ Sample Input
 Sample Output
 4
 1041808
+
+DAY - 79
+You are given a binary string S of length N. You can perform the following operation on S:
+Pick any set of indices such that no two picked indices are adjacent.
+Flip the values at the picked indices (i.e. change 0 to 1 and 1 to 0).
+For example, consider the string S=1101101.
+If we pick the indices {1,3,6}, then after flipping the values at picked indices, we will get 1?10?110?1→0111111.
+Note that we cannot pick the set {2,3,5} since 2 and 3 are adjacent indices.
+Find the minimum number of operations required to convert all the characters of S to 0.
+Input Format
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the length of the binary string S.
+The second line of each test case contains a binary string S of length N.
+Output Format
+For each test case, output the minimum number of operations required to convert all the characters of S to 0.
+Sample Input
+3
+6
+101001
+5
+00000
+3
+111
+Sample Output
+1
+0
+2
+
+DAY - 80 
+Alice and Bob went to a pet store. There are N animals in the store where the ith animal is of type Ai?.
+Alice decides to buy some of these N animals. Bob decides that he will buy all the animals left in the store after Alice has made the purchase.
+Find out whether it is possible that Alice and Bob end up with exactly same multiset of animals.
+Input Format
+The first line of input will contain a single integer T, denoting the number of test cases.
+Each test case consists of multiple lines of input.
+The first line of each test case contains an integer N — the number of animals in the store.
+The next line contains N space separated integers, denoting the type of each animal.
+Output Format
+For each test case, output on a new line, YES, if it is possible that Alice and Bob end up with exactly same multiset of animals and NO otherwise.
+You may print each character in uppercase or lowercase. For example, the strings YES, yes, Yes, and yES are considered identical.
+Sample Input
+4
+3
+4 4 4
+4
+2 3 3 2
+4
+1 2 2 3
+6
+5 5 1 5 1 5
+Sample Output
+NO
+YES
+NO
+YES
