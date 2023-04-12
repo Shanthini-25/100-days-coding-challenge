@@ -1011,3 +1011,40 @@ Sample Input
 Sample Output
 111
 1101
+
+DAY - 83
+Given a complete binary tree with the height of H, we index the nodes respectively top-down and left-right from 1. The i-th node stores a positive integer Vi. Define Pi as follows: Pi=Vi if the i-th node is a leaf, otherwise Pi=max(Vi*PL, Vi*PR), where L and R are the indices of the left and right children of i, respectively. Your task is to caculate the value of P1.
+Input
+There are several test cases (fifteen at most), each formed as follows:
+The first line contains a positive integer H (H ≤ 15).
+The second line contains 2H-1 positive integers (each having a value of 109 at most), the i-th integer shows the value of Vi.
+The input is ended with H = 0.
+Output
+For each test case, output on a line an integer which is the respective value of P1 found, by modulo of 1,000,000,007.
+Sample Input
+2
+1 2 3
+3
+3 1 5 2 6 4 7
+0
+Sample Output
+3
+105
+
+DAY - 84
+Given an undirected graph and an integer M. The task is to determine if the graph can be colored with at most M colors such that no two adjacent vertices of the graph are colored with the same color. Here coloring of a graph means the assignment of colors to all vertices. Print 1 if it is possible to colour vertices and 0 otherwise.
+Example 1:
+Input:
+N = 4
+M = 3
+E = 5
+Edges[] = {(0,1),(1,2),(2,3),(3,0),(0,2)}
+Output: 1
+Explanation: It is possible to colour the given graph using 3 colours.
+Example 2:
+Input:
+N = 3
+M = 2
+E = 3
+Edges[] = {(0,1),(1,2),(0,2)}
+Output: 0
