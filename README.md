@@ -1096,3 +1096,72 @@ Sample Output
 10
 1 1
 
+DAY - 87
+There are N stones in a pond, each having a value Ai? written on it. A frog is at stone 1 and wants to reach stone N. The frog can jump from a stone i to any stone j(j>i). Let d be the length of subarray (i.e. j−i+1), then the energy required for the jump is (d⋅Ai?)−Aj?. Find the minimum non-negative amount of energy required by the frog to reach the N-th stone.
+Note: It is possible that the total amount of energy required is negative, in that case, you should print the minimum non-negative value (i.e. 0).
+Input Format
+The first line contains an integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the number of stones.
+The second line contains N integers denoting the numbers written on the stones.
+Output Format
+For each test case output a single integer - the minimum non-negative energy required by the frog.
+Sample Input
+4
+3
+6 1 3
+4
+3 1 10 4
+3
+7 9 1
+2
+1 5
+Sample Output
+10
+4
+20
+0
+
+DAY - 88
+Blobo2 is in his practical exam. The teacher gave him a permutation A of N integers.
+The teacher has allowed Blobo2 to make a certain type of operation on the permutation. In one operation, he can:
+Apply left shift on the permutation. In other words, he can take the first element of the permutation and move it to the back of the permutation.
+The teacher has asked Blobo2 to find the lexicographically smallest permutation possible after applying any (possibly zero) number of given operations.
+Since Blobo2 wants to impress his teacher, he decided to perform at most two swaps in addition to the allowed operation.
+Find the lexicographically smallest possible permutation Blobo2 can generate after applying at most two swaps and any number of given operations.
+Note:
+A permutation of size N consists of all integers from 1 to N exactly once.
+During a swap, Blobo2 can choose any two indices i and j (1≤i,j≤N) and swap Ai? with Aj?.
+A permutation X is said to be lexicographically smaller than a permutation Y if Xi?<Yi?, where i is the first index where both the permutations differ.
+
+DAY - 89
+You are given N integers. In each step you can choose some K of the remaining numbers and delete them, if the following condition holds: Let the K numbers you've chosen be a1, a2, a3, ..., aK in sorted order. Then, for each i ≤ K - 1, ai+1 must be greater than or equal to ai * C.
+You are asked to calculate the maximum number of steps you can possibly make.
+Input
+The first line of the input contains an integer T, denoting the number of test cases. The description of each testcase follows.
+The first line of each testcase contains three integers: N, K, and C
+The second line of each testcase contains the N initial numbers
+Output
+For each test case output the answer in a new line.
+
+DAY - 90
+Gru has a string S of length N, consisting of only characters a and b for banana and P points to spend.
+Now Gru wants to replace and/or re-arrange characters of this given string to get the lexicographically smallest string possible. For this, he can perform the following two operations any number of times.
+Swap any two characters in the string. This operation costs 11point. (any two, need not be adjacent)
+Replace a character in the string with any other lower case english letter. This operation costs 2 points.
+Help Gru in obtaining the lexicographically smallest string possible, by using at most P points.
+Input:
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains two lines of input, first-line containing two integers N , P.
+The second line contains a string S consisting of N characters.
+Output: For each testcase, output in a single containing the lexicographically smallest string obtained.
+
+DAY - 91
+Sridhar was a seasoned traveler. He liked to visit new places. More than all he was a meticulous planner. This time he was planning to visit Europe. He wrote down his travel itinerary like as follows:
+If he wanted to visit Madrid, Paris, Munich, Warsaw and Kiev in this order, he would write it down like as:
+Madrid Paris 100
+Paris Munich 200
+Munich Warsaw 150
+Warsaw Kiev 120
+More formally, if he wanted to go from A to B directly and the price is C dollars, then he would write
+A B C
+on a card. Each move was written on a different card. Sridhar was a great planner, so he would never visit the same place twice. Just before starting his journey, the cards got shuffled. Help Sridhar figure out the actual order of the cards and the total cost of his journey.
